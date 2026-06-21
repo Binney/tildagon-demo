@@ -1,7 +1,7 @@
 from app import App
 from app_components import clear_background
 
-class HelloWorld(App):
+class DemoApp(App):
   def __init__(self):
     pass
 
@@ -14,4 +14,4 @@ class HelloWorld(App):
     ctx.text_baseline = ctx.MIDDLE
     ctx.move_to(0, 0).gray(1).text("Hello, world!")
 
-__app_export__ = HelloWorld
+__app_export__ = DemoApp
